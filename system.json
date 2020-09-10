@@ -1,0 +1,564 @@
+{
+    "system": {
+        "name": [
+            "The Tokyo Mirage System",
+            "The Shibuya System",
+            "Bluenette Gang"
+        ],
+        "bodyAge": 20,
+        "type": "quoigenic",
+        "bodyGender": "transfeminine"
+    },
+    "members": {
+        "1062": {
+            "name": [
+                "Tsubasa",
+                "Tsubasa Oribe",
+                "織部つばさ"
+            ],
+            "title": "Sacred Idol",
+            "pronouns": "she/her",
+            "type": "fictive",
+            "source": "Tokyo Mirage Sessions #FE",
+            "group": "#000066",
+            "role": "main cast, performer",
+            "contact": "@TsubasaOribe22#8548",
+            "birth": {
+                "age": "18",
+                "year": "2001",
+                "month": "12",
+                "date": "02"
+            },
+            "col": "1",
+            "wep": "1",
+            "mov": "3",
+            "description": "hi, my name is Tsubasa Oribe, im 18 (she her) and i want to be an idol because i want to pelp hheople. anyway, i get embarrassed easily but i love singing and dancing and being the idol everyone adores!!!",
+            "proxy": "to/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/tsubasaoribe.png",
+                "imgsrc": "screenshot, courtesy ATLUS/INTELLIGENT SYSTEMS",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/tsubasaoribe.png",
+                "imgsrc": "official art, courtesy ATLUS/INTELLIGENT SYSTEMS",
+                "imgurl": ""
+            }
+        },
+        "1517": {
+            "name": [
+                "Celica",
+                "Anthiese"
+            ],
+            "title": "Caring Princess",
+            "pronouns": "she/her",
+            "type": "fictive",
+            "source": "Fire Emblem Echoes",
+            "group": "#006600",
+            "role": "preacher of love and hope",
+            "contact": "",
+            "birth": {
+                "age": "23",
+                "year": "1996",
+                "month": "??",
+                "date": "??"
+            },
+            "col": "0",
+            "wep": "6",
+            "mov": "0",
+            "description": "",
+            "proxy": "ce/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/celica.png",
+                "imgsrc": "[UPDATE ME]",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/celica.png",
+                "imgsrc": "[UPDATE ME]",
+                "imgurl": ""
+            }
+        },
+        "2832": {
+            "name": [
+                "Tsubasa Hanekawa",
+                "羽川翼"
+            ],
+            "title": "Just What She Knows",
+            "pronouns": "she/her",
+            "type": "endogenic fictive",
+            "source": "Monogatari series",
+            "group": "#660000",
+            "role": "resident genius",
+            "contact": "",
+            "birth": {
+                "age": "18",
+                "year": "2002",
+                "month": "??",
+                "date": "??"
+            },
+            "col": "0",
+            "wep": "5",
+            "mov": "0",
+            "description": "Hi there. It's a bit ironic that I formed even before our system saw my source, yet I'm here. As long as I am, though, I just want to be in this world, study it, and do some useful things.",
+            "proxy": "th/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/tsubasahanekawa.png",
+                "imgsrc": "concept art, courtesy VOFAN",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/tsubasahanekawa.png",
+                "imgsrc": "concept art, courtesy VOFAN",
+                "imgurl": ""
+            }
+        },
+        "2933": {
+            "name": [
+                "Nino"
+            ],
+            "title": "Pious Mage",
+            "pronouns": "she/her",
+            "type": "non-literate fictive",
+            "source": "Fire Emblem Elibe",
+            "group": "#000066",
+            "role": "unknown",
+            "contact": "",
+            "birth": {
+                "age": "14",
+                "year": "????",
+                "month": "??",
+                "date": "??"
+            },
+            "col": "2",
+            "wep": "5",
+            "mov": "0",
+            "description": "",
+            "proxy": "ni/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/nino.png",
+                "imgsrc": "Atanarix on DeviantArt",
+                "imgurl": "https://www.deviantart.com/atanarix/art/Headpats-for-Nino-719766725"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/nino.png",
+                "imgsrc": "official art, courtesy of Nintendo/INTELLIGENT SYSTEMS",
+                "imgurl": ""
+            }
+        },
+        "3281": {
+            "name": [
+                "Mitsuha",
+                "Mitsuha Miyamizu",
+                "宮水三葉"
+            ],
+            "title": "Thread of Fate",
+            "pronouns": "she/her",
+            "type": "unknown",
+            "source": "Your Name.",
+            "group": "#660000",
+            "role": "fashion specialist, emotional helper",
+            "contact": "",
+            "birth": {
+                "age": "24",
+                "year": "1996",
+                "month": "03",
+                "date": "28"
+            },
+            "col": "0",
+            "wep": "5",
+            "mov": "0",
+            "description": "hi, i'm mitsuha! i work as a jeweler in tokyo, and am really excited to join the system... and, idk, i just love being in the city and everything!",
+            "proxy ": "mi/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/mitsuha.png",
+                "imgsrc": "misskiwi on pixiv",
+                "imgurl": "https://www.pixiv.net/artworks/81930587"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/mitsuha.png",
+                "imgsrc": "official artwork, courtesy of Makoto Shinkai / CoMix Wave Films",
+                "imgurl": ""
+            }
+        },
+        "4444": {
+            "name": [
+                "Raku-chan"
+            ],
+            "title": "Nyaaaa Desu",
+            "pronouns": "she/her",
+            "type": "endogenic fictive",
+            "source": "Nyan Neko Sugar Girls",
+            "group": "#006600",
+            "role": "... meme?",
+            "contact": "",
+            "birth": {
+                "age": "23",
+                "year": "1996",
+                "month": "??",
+                "date": "??"
+            },
+            "col": "2",
+            "wep": "2",
+            "mov": "0",
+            "description": "",
+            "proxy": "ra/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/rakuchan.png",
+                "imgsrc": "official artwork, courtesy of SoapOpera46",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/rakuchan.png",
+                "imgsrc": "official artwork, courtesy of SoapOpera46",
+                "imgurl": ""
+            }
+        },
+        "5621": {
+            "name": [
+                "Lauren",
+                "Robin"
+            ],
+            "title": "Part-Time Tactician",
+            "pronouns": "she/her",
+            "type": "semi-fictive",
+            "source": "Fire Emblem Awakening",
+            "group": "#000066",
+            "role": "tactician/strategist",
+            "contact": "",
+            "birth": {
+                "age": "21",
+                "year": "????",
+                "month": "06",
+                "date": "21"
+            },
+            "col": "2",
+            "wep": "6",
+            "mov": "0",
+            "description": "",
+            "proxy": "ur/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/lauren.png",
+                "imgsrc": "original avatar, made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/lauren.png",
+                "imgsrc": "original avatar, made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            }
+        },
+        "7130": {
+            "name": [
+                "Makoto",
+                "Makoto Konno",
+                "紺野真琴"
+            ],
+            "title": "Time Leaper",
+            "pronouns": "she/her",
+            "type": "endogenic fictive",
+            "source": "The Girl Who Leapt Through Time",
+            "group": "#006600",
+            "role": "Japanese speaker (solely)",
+            "contact": "",
+            "birth": {
+                "age": "16",
+                "year": "2004",
+                "month": "??",
+                "date": "??"
+            },
+            "col": "2",
+            "wep": "4",
+            "mov": "3",
+            "description": "",
+            "proxy": "ma/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/makoto.png",
+                "imgsrc": "C-WAVE on pixiv",
+                "imgurl": "https://www.pixiv.net/artworks/69846491"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/makoto.png",
+                "imgsrc": "official artwork, courtesy of Mamoru Hosoda / MADHOUSE",
+                "imgurl": ""
+            }
+        },
+        "8007": {
+            "name": [
+                "Hina",
+                "Hina Amano",
+                "天野陽菜"
+            ],
+            "title": "Sunshine Girl",
+            "pronouns": "she/her",
+            "type": "fictive",
+            "source": "Weathering With You",
+            "group": "#006600",
+            "role": "main cast, sunshine girl",
+            "contact": "@sunshinegirl100#3447",
+            "birth": {
+                "age": "17",
+                "year": "2002",
+                "month": "08",
+                "date": "22"
+            },
+            "col": "2",
+            "wep": "6",
+            "mov": "0",
+            "description": "Hey there, I'm Hina. I'm chipper, yet straightforward. What I want to do is help people through tough times, and turn their rainy days into sunny days!",
+            "proxy": "hi/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/hina.png",
+                "imgsrc": "official artwork, courtesy of Makoto Shinkai / CoMix Wave Films",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/hina.png",
+                "imgsrc": "official artwork, courtesy of Makoto Shinkai / CoMix Wave Films",
+                "imgurl": ""
+            }
+        },
+        "8314": {
+            "name": [
+                "Lucy",
+                "Lucina",
+                "Present Lucy",
+                "Tsubasa P"
+            ],
+            "title": "New Again",
+            "pronouns": "she/her",
+            "type": "factive",
+            "source": "original singlet",
+            "group": "#660000",
+            "role": "main cast, protector",
+            "contact": "@himokko83#1194",
+            "birth": {
+                "age": "eternally 19",
+                "year": "N/A",
+                "month": "07",
+                "date": "04"
+            },
+            "col": "0",
+            "wep": "0",
+            "mov": "0",
+            "description": "hey. im lucy, the original singlet (kind of, long story). i'm very nerdy and geeky but many see me as a sweet girl. also i'm easily embarrassed. idk how good i am in stuff but i like to think i do pretty well.",
+            "proxy": "lu/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/i/lucy.png",
+                "imgsrc": "original avatar made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/lucy.png",
+                "imgsrc": "original avatar made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            }
+        },
+        "10621": {
+            "name": [
+                "Caeda"
+            ],
+            "title": "Mirage of Talys",
+            "pronouns": "she/her",
+            "type": "illusory fictive",
+            "source": "Fire Emblem Archanea",
+            "group": "#000066",
+            "role": "Protector of Tsubasa",
+            "contact": "",
+            "birth": {
+                "age": "16",
+                "year": "2004",
+                "month": "??",
+                "date": "??"
+            },
+            "col": "1",
+            "wep": "1",
+            "mov": "3",
+            "description": "I am a Mirage, an illusory hero under the help of Tsubasa Oribe. I help her in all things, and I learn a lot about the modern world through her.",
+            "proxy": "ca/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/caeda.png",
+                "imgsrc": "official art, courtesy ATLUS/INTELLIGENT SYSTEMS",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/caeda.png",
+                "imgsrc": "official art, courtesy ATLUS/INTELLIGENT SYSTEMS",
+                "imgurl": ""
+            }
+        },
+        "0420": {
+            "name": [
+                "Lucina",
+                "FPL",
+                "Lucina, Exalt of Ylisse"
+            ],
+            "title": "Future Witness",
+            "pronouns": "she/her",
+            "type": "traumagenic fictive",
+            "source": "Fire Emblem Awakening",
+            "group": "#660000",
+            "role": "Traumatic protector of Lucy",
+            "contact": "",
+            "birth": {
+                "age": "20",
+                "year": "AN1702",
+                "month": "04",
+                "date": "20"
+            },
+            "col": "0",
+            "wep": "0",
+            "mov": "0",
+            "description": "I came from the dark future of another world, and I became part of this system. I sincerely wish and fight for this world's existence and betterment. It seems I formed due to personal issues that Lucy was going through, and I wish to be a help to her.",
+            "proxy": "fp/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/fpl.png",
+                "imgsrc": "@_ryonhei on Twitter",
+                "imgurl": "https://twitter.com/_ryonhei/status/1146551378694688768"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/fpl.png",
+                "imgsrc": "official art, courtesy of Nintendo/INTELLIGENT SYSTEMS",
+                "imgurl": ""
+            }
+        },
+        "0501": {
+            "name": [
+                "Outside Umaru",
+                "土間うまる"
+            ],
+            "title": "Beauty",
+            "pronouns": "she/her",
+            "type": "memetive",
+            "source": "Umaru-chan",
+            "group": "#660000",
+            "role": "perfect image",
+            "contact": "",
+            "birth": {
+                "age": "17",
+                "year": "2002",
+                "month": "09",
+                "date": "26"
+            },
+            "col": "3",
+            "wep": "3",
+            "mov": "0",
+            "description": "",
+            "proxy": "uo/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/outsideumaru.png",
+                "imgsrc": "[UPDATE ME]",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/outsideumaru.png",
+                "imgsrc": "[UPDATE ME]",
+                "imgurl": ""
+            }
+        },
+        "05011": {
+            "name": [
+                "Inside Umaru",
+                "土間うまる"
+            ],
+            "title": "Blob",
+            "pronouns": "she/her",
+            "type": "memetive",
+            "source": "Umaru-chan",
+            "group": "#660000",
+            "role": "gaming, just gaming",
+            "contact": "",
+            "birth": {
+                "age": "17",
+                "year": "2002",
+                "month": "09",
+                "date": "26"
+            },
+            "col": "9",
+            "wep": "8",
+            "mov": "0",
+            "description": "",
+            "proxy": "ui/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/insideumaru.png",
+                "imgsrc": "[UPDATE ME]",
+                "imgurl": ""
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/insideumaru.png",
+                "imgsrc": "[UPDATE ME]",
+                "imgurl": ""
+            }
+        },
+        "0810": {
+            "name": [
+                "Akari",
+                "Akari Shirakawa",
+                "白川あかり"
+            ],
+            "title": "Virtual Cuteness",
+            "pronouns": "she/her",
+            "type": "amalgamate",
+            "source": "Lucy, Hina, and Tsubasa",
+            "creator": "",
+            "role": "combined presence",
+            "contact": "",
+            "birth": {
+                "age": "19",
+                "year": "2001",
+                "month": "05",
+                "date": "08"
+            },
+            "col": "3",
+            "wep": "6",
+            "mov": "2",
+            "description": "what happens when Lucy, Hina, and Tsubasa make a combined member? cute happens! and i’m cute! i'm Akari, and i love to nerd out, sing, and stream!",
+            "proxy": "ak/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/akari.png",
+                "imgsrc": "original avatar made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/akari.png",
+                "imgsrc": "original avatar made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            }
+        },
+        "08101": {
+            "name": [
+                "Nayami",
+                "Nayami Kurozawa",
+                "黒沢なやみ"
+            ],
+            "title": "Virtual Cuteness 2",
+            "pronouns": "she/her",
+            "type": "subsystem member",
+            "source": "Akari",
+            "group": "#666666",
+            "role": "plural rep for Akari",
+            "contact": "",
+            "birth": {
+                "age": "19",
+                "year": "2001",
+                "month": "05",
+                "date": "08"
+            },
+            "col": "3",
+            "wep": "6",
+            "mov": "2",
+            "description": "what happens when Lucy, Hina, and Tsubasa make a combined member? cute happens! and i’m cute! i'm Akari, and i love to nerd out, sing, and stream!",
+            "proxy": "na/[message]",
+            "avatar": {
+                "img": "https://butterfly42.neocities.org/a/p/a/nayami.png",
+                "imgsrc": "original avatar made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            },
+            "portrait": {
+                "img": "https://butterfly42.neocities.org/a/p/p/nayami.png",
+                "imgsrc": "original avatar made in VRoid Studio",
+                "imgurl": "https://vroid.com/studio"
+            }
+        }
+    }
+}
