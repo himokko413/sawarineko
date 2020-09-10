@@ -19,11 +19,7 @@ export SWR_COLOR="#600"
 # Role of member in system
 export SWR_ROLE="unknown"
 # Age/birthday to display on intro. Appended to relative age if enabled
-export SWR_AGE="17 (??.05.23)"
-# Does the member age linear to physical time?
-export SWR_REL_AGE=false
-# If so, what is their birthday? Convert years to physical space years
-export SWR_REL_BIRTHDAY=""
+export SWR_AGE="17 (2010.05.23)"
 # YYYY-MM-DD birthday to add to PK
 export SWR_PK_BIRTHDAY="05-23"
 # Weapon color (old Grima protocol). 0 1 2 3 = red, blue, green, colorless

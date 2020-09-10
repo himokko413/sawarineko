@@ -1,42 +1,42 @@
 # Primary name to show on introductions, registered onto PK
-export SWR_NAME="Future Past Lucina"
+export SWR_NAME="Celica"
 # Full name, may be used in intro
-export SWR_FULL_NAME="Lucina, Exalt of Ylisse"
+export SWR_FULL_NAME="Anthiese 'Celica' Lima"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="Future Witness"
+export SWR_EPITHET="Caring Princess"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
 export SWR_PERSONAL="watashi"
 # Type of member (introject, walk-in, etc.)
-export SWR_TYPE="traumagenic fictive (by Lucy)"
+export SWR_TYPE="fictive"
 # Source (meant for introjects but can also describe reason for formation)
-export SWR_SOURCE="Fire Emblem Awakening"
+export SWR_SOURCE="Fire Emblem Echoes"
 # Source explanation (character page for fictives, Blossom definition etc.)
-export SWR_SURL="https://fireemblem.fandom.com/wiki/Lucina"
+export SWR_SURL="https://fireemblem.fandom.com/wiki/Celica"
 # Color of member or member's cluster
-export SWR_COLOR="#600"
+export SWR_COLOR="#060"
 # Role of member in system
-export SWR_ROLE="traumatic protector of Lucy"
+export SWR_ROLE="preacher of love and hope"
 # Age/birthday to display on intro. Appended to relative age if enabled
-export SWR_AGE="21 (AN1702.04.20)"
-# Birthday to add to PK
-export SWR_PK_BIRTHDAY="04-20"
+export SWR_AGE="23 (??.??.??)"
+# YYYY-MM-DD birthday to add to PK
+export SWR_PK_BIRTHDAY=""
 # Weapon color (old Grima protocol). 0 1 2 3 = red, blue, green, colorless
-export GRI_COL="0"
+export GRI_COL="2"
 # Weapon type (old Grima protocol). 0 1 2 3 4 5 6 7 8 = sword, lance, axe, staff, bow, dagger, tome, breath, beast
-export GRI_WEP="0"
+export GRI_WEP="6"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
 # Description (preferably written by member)
-export SWR_DESC="I came from the dark future of another world, and I became part of this system. I sincerely wish and fight for this world's existence and betterment. It seems I formed due to personal issues that Lucy was going through, and I wish to be a help to her."
+export SWR_DESC=""
 # Proxy used on PK.
-export SWR_PROXY="fp/text"
+export SWR_PROXY="ce/text"
 # Source of avatar
-export SWR_ASOURCE="M-D-47 on DeviantArt"
+export SWR_ASOURCE="official art (INTELLIGENT SYSTEMS, Fire Emblem Heroes)"
 # URL of avatar source (if available)
-export SWR_AURL="https://www.deviantart.com/m-d-47/art/Big-and-Lil-Lucy-810738207"
+export SWR_AURL=""
 # Source of portrait
-export SWR_PSOURCE="official art (Nintendo/INTELLIGENT SYSTEMS)"
+export SWR_PSOURCE="official art by Hidari (Nintendo / INTELLIGENT SYSTEMS)"
 # URL of portrait source (if available)
 export SWR_PURL=""

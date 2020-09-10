@@ -6,22 +6,22 @@ export SWR_FULL_NAME="Umaru Doma"
 export SWR_EPITHET="Beauty / Outside"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
+# Personal pronouns (i.e. watashi, watakushi, boku, ore)
+export SWR_PERSONAL="watashi"
 # Type of member (introject, walk-in, etc.)
 export SWR_TYPE="fictive"
 # Source (meant for introjects but can also describe reason for formation)
 export SWR_SOURCE="Himouto! Umaru-chan"
+# Source explanation (character page for fictives, Blossom definition etc.)
+export SWR_SURL=""
 # Color of member or member's cluster
 export SWR_COLOR="#600"
 # Role of member in system
 export SWR_ROLE="perfect image"
 # Age/birthday to display on intro. Appended to relative age if enabled
-export SWR_AGE=" (2002.09.26)"
-# Does the member age linear to physical time?
-export SWR_REL_AGE=true
-# If so, what is their birthday? Convert years to physical space years
-export SWR_REL_BIRTHDAY="2002-09-26"
+export SWR_AGE="17 (2002.09.26)"
 # Birthday to add to PK
-export SWR_PK_BIRTHDAY="2002-09-26"
+export SWR_PK_BIRTHDAY="09-26"
 # Weapon color (old Grima protocol). 0 1 2 3 = red, blue, green, colorless
 export GRI_COL="3"
 # Weapon type (old Grima protocol). 0 1 2 3 4 5 6 7 8 = sword, lance, axe, staff, bow, dagger, tome, breath, beast
