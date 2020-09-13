@@ -15,7 +15,7 @@ export SWR_SOURCE="Tokyo Mirage Sessions #FE"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL="https://fireemblem.fandom.com/wiki/Kiria_Kurono"
 # Color of member or member's cluster
-export SWR_COLOR="#600"
+export SWR_COLOR="#300"
 # Role of member in system
 export SWR_ROLE="performer"
 # Age/birthday to display on intro. Appended to relative age if enabled

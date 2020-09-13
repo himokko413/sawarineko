@@ -1,7 +1,7 @@
 # Primary name to show on introductions, registered onto PK
 export SWR_NAME="Tsubasa Hanekawa"
 # Full name, may be used in intro
-export SWR_FULL_NAME="Tsubasa Hanekawa / 羽川翼"
+export SWR_FULL_NAME="Tsubasa Hanekawa"
 # Descriptive title on introductions, a la Fire Emblem Heroes
 export SWR_EPITHET="Just What She Knows"
 # Pronouns (will also register to PK)
@@ -15,7 +15,7 @@ export SWR_SOURCE="Monogatari series"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL="https://bakemonogatari.fandom.com/wiki/Tsubasa_Hanekawa"
 # Color of member or member's cluster
-export SWR_COLOR="#600"
+export SWR_COLOR="#300"
 # Role of member in system
 export SWR_ROLE="overachiever"
 # Age/birthday to display on intro. Appended to relative age if enabled

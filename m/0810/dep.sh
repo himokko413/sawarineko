@@ -15,7 +15,7 @@ export SWR_SOURCE="Lucy P, Hina, and Tsubasa O"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL=""
 # Color of member or member's cluster
-export SWR_COLOR="#666"
+export SWR_COLOR="#333"
 # Role of member in system
 export SWR_ROLE="combined presence"
 # Age/birthday to display on intro. Appended to relative age if enabled

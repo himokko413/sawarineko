@@ -11,7 +11,7 @@ export SWR_TYPE="memetive"
 # Source (meant for introjects but can also describe reason for formation)
 export SWR_SOURCE="Himouto! Umaru-chan"
 # Color of member or member's cluster
-export SWR_COLOR="#600"
+export SWR_COLOR="#300"
 # Role of member in system
 export SWR_ROLE="gaming, just gaming"
 # Age/birthday to display on intro. Appended to relative age if enabled

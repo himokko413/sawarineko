@@ -15,7 +15,7 @@ export SWR_SOURCE="Fire Emblem Awakening"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL="https://fireemblem.fandom.com/wiki/Virion"
 # Color of member or member's cluster
-export SWR_COLOR="#666"
+export SWR_COLOR="#333"
 # Role of member in system
 export SWR_ROLE="mirage protector of Eleonora"
 # Age/birthday to display on intro. Appended to relative age if enabled

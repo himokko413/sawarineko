@@ -15,7 +15,7 @@ export SWR_SOURCE="Weathering With You"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL=""
 # Color of member or member's cluster
-export SWR_COLOR="#060"
+export SWR_COLOR="#030"
 # Role of member in system
 export SWR_ROLE="sunshine girl"
 # Age/birthday to display on intro. Appended to relative age if enabled

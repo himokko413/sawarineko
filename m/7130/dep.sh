@@ -15,7 +15,7 @@ export SWR_SOURCE="The Girl Who Leapt Through Time"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL=""
 # Color of member or member's cluster
-export SWR_COLOR="#060"
+export SWR_COLOR="#030"
 # Role of member in system
 export SWR_ROLE="Japanese speaker (solely)"
 # Age/birthday to display on intro. Appended to relative age if enabled

@@ -3,7 +3,7 @@ export SWR_NAME="Akari Kizuna"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Akari Kizuna"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="She's Here"
+export SWR_EPITHET="She Is Here"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
@@ -15,7 +15,7 @@ export SWR_SOURCE="GYARI Vocaloid"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL="https://www.youtube.com/watch?v=tyneiz9FRMw"
 # Color of member or member's cluster
-export SWR_COLOR="#666"
+export SWR_COLOR="#333"
 # Role of member in system
 export SWR_ROLE="weird sound maker"
 # Age/birthday to display on intro. Appended to relative age if enabled
