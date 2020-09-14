@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+body { font-family: "M PLUS 1p"; margin: 0; }
+div.page { background: #0e0e0e; color: #cb8bb9; width: 900px; min-height: 100vh; margin: auto; padding: 8px; border-width: 8px; border-color: #cb8bb9; border-style: none ridge; }
+a { color: #fcbed5; }
+a:visited { color: #cb8bb9; }
+hr { display: block; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: auto; margin-right: auto; border-style: inset; border-width: 1px; border-color: #cb8bb9; }
+.s0 { color: #3e5e51; }
+.s1 { color: #d26841; }
+.s2 { color: #3db186; }
+.s3 { color: #f3a944; }
+.s4 { color: #0d66ac; }
+.s5 { color: #d949ca; }
+.s6 { color: #5dd0e1; }
+.s7 { color: #d7f7f1; }
+.s8 { color: #4e6e61; }
+.s9 { color: #e56253; }
+.s10 { color: #00c8ae; }
+.s11 { color: #eac22e; }
+.s12 { color: #107cd1; }
+.s13 { color: #f753e6; }
+.s14 { color: #7aeeff; }
+.s15 { color: #f0ffff; }
+.s117 { color: #5ccffb; }
+.s212 { color: #f5aab9; }
+.s231 { color: #ffffff; }

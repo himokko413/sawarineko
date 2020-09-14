@@ -3,7 +3,7 @@ export SWR_NAME="Akari Kizuna"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Akari Kizuna"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="She Is Here"
+export SWR_EPITHET="She\'s Here"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)

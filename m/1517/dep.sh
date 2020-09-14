@@ -1,7 +1,7 @@
 # Primary name to show on introductions, registered onto PK
 export SWR_NAME="Celica"
 # Full name, may be used in intro
-export SWR_FULL_NAME="Anthiese 'Celica' Lima"
+export SWR_FULL_NAME="Anthiese \'Celica\' Lima"
 # Descriptive title on introductions, a la Fire Emblem Heroes
 export SWR_EPITHET="Caring Princess"
 # Pronouns (will also register to PK)

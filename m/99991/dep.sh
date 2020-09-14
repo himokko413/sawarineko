@@ -15,7 +15,7 @@ export SWR_SOURCE="Fire Emblem Three Houses"
 # Source explanation (character page for fictives, Blossom definition etc.)
 export SWR_SURL="https://fireemblem.fandom.com/wiki/Sothis"
 # Color of member or member's cluster
-export SWR_COLOR="#001"
+export SWR_COLOR="#000"
 # Role of member in system
 export SWR_ROLE="member printer"
 # Age/birthday to display on intro. Appended to relative age if enabled

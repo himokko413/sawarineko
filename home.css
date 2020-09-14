@@ -1,0 +1,5 @@
+@import url('shell.css');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+body { background: url('bg.gif'); background-position: center; }
+div.ff { display: flex; justify-content: space-between; }
+div.ff > a { flex-grow: 1; display: block; }
