@@ -1,0 +1,70 @@
+P
+    - Plural Code Version
+        - e.g. P0.1 for version 0.1
+N
+    - Number
+        - Added "unsure" number option: "u"
+            - e.g. Nu
+            - Cannot be used with about operator: "~"
+        - Added "at least" option: "+"
+            - e.g. N5+ = There are at least 5 headmates
+            - Cannot be used with about operator: "~"
+G
+    - Genders
+        - use numbers instead of pluses - large numbers of headmates can make this long-winded
+            - e.g. Gm++++++++f+++++ becomes Gm8f5
+        - Added "unsure" gender option: "u"
+            - e.g. Gm8f5u2
+        - Added "unsure" number option: "~"
+            - e.g. Gm8f5u2n~
+            - Gu~ = unsure of genders of anyone, and we don't know how many headmates there are
+        - Added "at least" option: "+"
+            - e.g. Gm8+ = There are at least 8 male headmates
+S
+    - Form
+        - Changed "shapeshifter" indicator to "x"
+        - Added "unsure" form option: "u"
+            - e.g. Sh2u4
+        - Added "unsure" number option: "~"
+            - e.g. Sh2u4s~
+            - Su~ = unsure of forms of anyone, and we don't know how many headmates there are 
+        - Removed mammal option, along with mammal subtypes
+            - ambiguity issues
+        - Added custom option: "[]"
+            - e.g. Sh2u4s~[cat]2
+        - Possibility of adding other common types as their own identifier later, e.g. pony
+        - Added "at least" option: "+"
+            - e.g. Ss3+ = There are at least 3 headmates with a spiritual form
+A
+    - Age
+        - Changed format to use number to designate how many headmates of a certain age there are
+            - Number of headmates with age needs to be specified, even if only one, due to numbers being used as identifier and quantity
+            - e.g. A16+++28 becomes A16[4]28[1]
+        - Added "unsure" age option: "u"
+            - e.g. A16[4]28[1]u[2]
+        - Added "unsure" number option: "~"
+            - e.g. A16[4]28[~]
+            - Au[~] = unsure of ages of anyone, and we don't know how many headmates there are
+        - Added "at least" option: "+"
+            - e.g. a20[4+] = There are at least 4 headmates that are 20 years old
+O
+    - Origin
+        - Removed dot (.) separator - unnecessary
+            - e.g. Ob.i becomes Obi
+        - Changed "unsure" origin option from "q" to "u"
+            - e.g. Ob2u3
+        - Added "unsure" number option: "~"
+            - e.g. Ob2u3t~
+            - Ou~ = unsure of origins of anyone, and we don't know how many headmates there are
+        - TODO: add "at least" option: "+"
+            - e.g. Ot3+ = There are at least 3 traumagenic headmates
+Q
+    - Amnesia Status
+        - Changed question to "On a scale of 1 to 10, how well do you remember events that occurred while you are switched out?"
+            - Reverses scale, makes scale consistent with D and C, where 1 is worst and 10 is best
+            - Changes range from 0-10 to 1-10 to match D and C
+W
+    - Outness Factor
+        - Changed name to "Openness about Plural Status"
+        - Possibly change character code to 1-10 scale
+            - Would provide more flexibility than current 3-level scale

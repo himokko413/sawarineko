@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plural Code</title>
+    <script src="dist/js/bootstrap.js"></script>
+    <link href="../home.css" rel="stylesheet">
+    <script src="dist/js/style.js"></script>
+    <script async src="dist/js/app.js"></script>
+<style>
+.card {
+  background: #0e0e0e;
+}
+.btn-primary, .btn-primary:hover {
+  background: #cb8bb9;
+}
+</style>
+    <!-- Icons in /images/fa-icons provided by Font Awesome. https://fontawesome.com/license -->
+</head>
+<body>
+    <div class="container mt-5 page" style="margin-top: 0!important">
+        <section>
+          <table style="width: 100%;"><td style="width: 25%"><center><a href=".."><img src="../back.png"></a></center></td><td><h1 class="text-center"><a href="index.html">The Plural Code</a></h1></td></table>
+        </section>
+        <section>
+            <p>
+                The Plural Code is a way of briefly summarising some key facts about your plurality in a
+                neatly-formatted and readable manner. A Generator and Parser have been created to assist with reading
+                and writing your own Plural Code to share with others.
+            </p>
+            <p>
+                This Plural Code is based off the Plural Code definition by the Lambda system, with changes and
+                optimisations by SillyChip.
+            </p>
+            <p>
+                If you would like to learn more about The Plural Code, have a suggestion, or are just curious about
+                plurality in general, you can join the discussion on Telegram at
+                <a href="https://t.me/PluralStation">t.me/PluralStation</a> and follow
+                <a href="https://twitter.com/PluralStation">@PluralStation</a> on Twitter!
+            </p>
+            <p><a href="https://plural.codes/about.html">How to Read and Write a Plural Code</a></p>
+            <p><a href="https://plural.codes/resources/pluralcode.zip">Zip file of the entire project (with compiled CSS/JS)</a></p>
+            <p>This site works best in anything other than Internet Explorer. Don't you have Edge anyway?</p>
+        </section>
+        <section class="row">
+            <div class="col-12 accordion" id="parser_accordion">
+                <section class="card mb-5">
+                    <button
+                        class="card-header btn btn-link text-reset position-relative" type="button"
+                        data-toggle="collapse" data-target="#parser_body" aria-expanded="true" aria-controls="parser_body"
+                    >
+                        <h2 id="parser_heading">
+                            Parser
+                        </h2>
+                        <img src="images/fa-icons/caret-up-solid.svg" aria-hidden="true" accordion-arrow>
+                    </button>
+                    <div id="parser_body" class="collapse show" aria-labelledby="parser_heading" data-parent="#parser_accordion">
+                        <div class="card-body">
+                            <p>Sample code to test the parser:</p>
+                            <p class="text-monospace">P1.0 Mu N6+ Gm2f3u~ Sh4[anthro cat]u~ A16[2+]26[1]u[~] Obi2t~ D7 C5 Q8 Wr3o7</pre>
+                            <div class="code-parser">
+                                <div class="card mb-3">
+                                    <h3 class="card-header">Input here:</h3>
+                                    <div class="card-body">
+                                        <input type="text" class="form-control" parser-input aria-label="Parser input">
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center justify-content-between">
+                                        <h3 class="mb-0">Output here:</h3>
+                                        <button class="btn btn-lg btn-secondary" get-link disabled>Copy Code Link</button>
+                                    </div>
+                                    <p class="alert alert-warning card-body d-none" parser-message aria-label="Parser output"></p>
+                                    <div class="card-body" parser-output></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-12 accordion" id="generator_accordion">
+                <form class="card mb-5" generator-form>
+                    <button
+                        class="card-header btn btn-link text-reset position-relative" type="button"
+                        data-toggle="collapse" data-target="#generator_body" aria-expanded="true" aria-controls="generator_body"
+                    >
+                        <h2 id="generator_heading">
+                            Generator
+                        </h2>
+                        <img src="images/fa-icons/caret-down-solid.svg" aria-hidden="true" accordion-arrow>
+                    </button>
+                    <div id="generator_body" class="" aria-labelledby="generator_heading" data-parent="#generator_accordion">
+                        <div class="card-body">
+                            <p>After filling in your choices, click the Generate button at the end of the form to generate your Plural Code.</p>
+                            <div id="plurality_status" class="card mb-3">
+                                <h3 class="card-header">Plurality Status</h3>
+                                <div class="card-body">
+                                    <div class="px-3 d-flex flex-column align-items-start">
+                                        <label>
+                                            <input type="radio" name="plurality_status_value" value="n" checked>
+                                            <span>I am not plural.</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="plurality_status_value" value="u">
+                                            <span>We are plural.</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="number_of_headmates" class="card mb-3">
+                                <h3 class="card-header">Number of Headmates</h3>
+                                <div class="card-body">
+                                    <div class="px-3 d-flex flex-column align-items-start">
+                                        <label class="margin-top-minus">
+                                            <input type="radio" name="headmates_quantity_number" value="value" checked>
+                                            <span>There are</span>
+                                            <div class="checkbox-at-least">
+                                                <input type="hidden" name="headmates_quantity_atleast" value="">
+                                                <input type="checkbox" id="headmates_quantity_atleast" name="headmates_quantity_atleast" value="+">
+                                                <label for="headmates_quantity_atleast">at least</label>
+                                            </div>
+                                            <input type="text" name="headmates_quantity_count" value="1" class="form-control number-field" aria-label="number input, 0 or above">
+                                            <span>headmate(s) in this system.</span>
+                                        </label>
+                                        <label>
+                                            <span>
+                                                <input type="radio" name="headmates_quantity_number" value="~">
+                                                There are an unknown number of headmates in this system.
+                                            </span>
+                                        </label>
+                                        <label>
+                                            <span>
+                                                <input type="radio" name="headmates_quantity_number" value="">
+                                                (Prefer not to answer)
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="gender_of_headmates" class="card mb-3">
+                                <h3 class="card-header">Genders of Headmates</h3>
+                                <div class="card-body">
+                                    <div gender-groups>
+                                        <div class="card card-body flex-row mb-3" gender-group>
+                                            <div class="mr-3">
+                                                <button class="btn btn-sm btn-danger d-flex p-1" delete><img src="images/fa-icons/times-solid.svg" alt="Delete Gender option"></button>
+                                            </div>
+                                            <div class="d-flex flex-column w-100">
+                                                <div class="d-flex flex-column card card-body mb-2">
+                                                    <label>
+                                                        <input type="radio" name="headmates_gender_type[0]" value="value" checked>
+                                                        <span>Preset Gender:</span>
+                                                        <select name="headmates_gender_preset[0]" class="form-control">
+                                                            <option value="m">Male</option>
+                                                            <option value="f">Female</option>
+                                                            <option value="n">Non-binary</option>
+                                                        </select>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="headmates_gender_type[0]" value="[">
+                                                        <span>Custom Gender:</span>
+                                                        <input type="text" name="headmates_gender_value[0]" class="form-control">
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="headmates_gender_type[0]" value="u">
+                                                        <span>Unknown Gender</span>
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex flex-column card card-body">
+                                                    <label class="margin-top-minus">
+                                                        <input type="radio" name="headmates_gender_number[0]" value="value" checked>
+                                                        <span>There are</span>
+                                                        <div class="checkbox-at-least">
+                                                            <input type="hidden" name="headmates_gender_atleast[0]" value="">
+                                                            <input type="checkbox" id="headmates_gender_atleast_0" name="headmates_gender_atleast[0]" value="+">
+                                                            <label for="headmates_gender_atleast_0">at least</label>
+                                                        </div>
+                                                        <input type="text" name="headmates_gender_count[0]" value="1" class="form-control number-field" aria-label="number, 0 or above">
+                                                        <span>headmate(s) with this gender.</span>
+                                                    </label>
+                                                    <label>
+                                                        <span>
+                                                            <input type="radio" name="headmates_gender_number[0]" value="~">
+                                                            There are an unknown number of headmates with this gender.
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <button class="btn btn-primary mr-3" add-group data-group="gender">Add Another Gender</button>
+                                        <span>(Delete all Genders if you prefer not to answer)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="form_of_headmates" class="card mb-3">
+                                <h3 class="card-header">Forms of Headmates</h3>
+                                <div class="card-body">
+                                    <div form-groups>
+                                        <div class="card card-body flex-row mb-3" form-group>
+                                            <div class="mr-3">
+                                                <button class="btn btn-sm btn-danger d-flex p-1" delete><img src="images/fa-icons/times-solid.svg" alt="Delete Form option"></button>
+                                            </div>
+                                            <div class="d-flex flex-column w-100">
+                                                <div class="d-flex flex-column card card-body mb-2">
+                                                    <label>
+                                                        <input type="radio" name="headmates_form_type[0]" value="value" checked>
+                                                        <span>Preset Form:</span>
+                                                        <select name="headmates_form_preset[0]" class="form-control">
+                                                            <option value="h">Human</option>
+                                                            <option value="s">Spiritual</option>
+                                                            <option value="x">Shapeshifter</option>
+                                                        </select>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="headmates_form_type[0]" value="[">
+                                                        <span>Custom Form:</span>
+                                                        <input type="text" name="headmates_form_value[0]" class="form-control">
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="headmates_form_type[0]" value="u">
+                                                        <span>Unknown Form</span>
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex flex-column card card-body">
+                                                    <label class="margin-top-minus">
+                                                        <input type="radio" name="headmates_form_number[0]" value="value" checked>
+                                                        <span>There are</span>
+                                                        <div class="checkbox-at-least">
+                                                            <input type="hidden" name="headmates_form_atleast[0]" value="">
+                                                            <input type="checkbox" id="headmates_form_atleast_0" name="headmates_form_atleast[0]" value="+">
+                                                            <label for="headmates_form_atleast_0">at least</label>
+                                                        </div>
+                                                        <input type="text" name="headmates_form_count[0]" value="1" class="form-control number-field" aria-label="number, 0 or above">
+                                                        <span>headmate(s) with this form.</span>
+                                                    </label>
+                                                    <label>
+                                                        <span>
+                                                            <input type="radio" name="headmates_form_number[0]" value="~">
+                                                            There are an unknown number of headmates with this form.
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <button class="btn btn-primary mr-3" add-group data-group="form">Add Another Form</button>
+                                        <span>(Delete all Forms if you prefer not to answer)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="age_of_headmates" class="card mb-3">
+                                <h3 class="card-header">Ages of Headmates</h3>
+                                <div class="card-body">
+                                    <div age-groups>
+                                        <div class="card card-body flex-row mb-3" age-group>
+                                            <div class="mr-3">
+                                                <button class="btn btn-sm btn-danger d-flex p-1" delete><img src="images/fa-icons/times-solid.svg" alt="Delete Age option"></button>
+                                            </div>
+                                            <div class="d-flex flex-column w-100">
+                                                <div class="d-flex flex-column card card-body mb-2">
+                                                    <label>
+                                                        <input type="radio" name="headmates_age_type[0]" value="value" checked>
+                                                        <span>Age:</span>
+                                                        <input type="text" name="headmates_age_value[0]" value="1" class="form-control">
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="headmates_age_type[0]" value="u">
+                                                        <span>Unknown Age</span>
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex flex-column card card-body">
+                                                    <label class="margin-top-minus">
+                                                        <input type="radio" name="headmates_age_number[0]" value="value" checked>
+                                                        <span>There are</span>
+                                                        <div class="checkbox-at-least">
+                                                            <input type="hidden" name="headmates_age_atleast[0]" value="">
+                                                            <input type="checkbox" id="headmates_age_atleast_0" name="headmates_age_atleast[0]" value="+">
+                                                            <label for="headmates_age_atleast_0">at least</label>
+                                                        </div>
+                                                        <input type="text" name="headmates_age_count[0]" value="1" class="form-control number-field" aria-label="number, 0 or above">
+                                                        <span>headmate(s) with this age.</span>
+                                                    </label>
+                                                    <label>
+                                                        <span>
+                                                            <input type="radio" name="headmates_age_number[0]" value="~">
+                                                            There are an unknown number of headmates with this age.
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <button class="btn btn-primary mr-3" add-group data-group="age">Add Another Age</button>
+                                        <span>(Delete all Ages if you prefer not to answer)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="origin_of_headmates" class="card mb-3">
+                                <h3 class="card-header">Origins of Headmates</h3>
+                                <div class="card-body">
+                                    <div origin-groups>
+                                        <div class="card card-body flex-row mb-3" origin-group>
+                                            <div class="mr-3">
+                                                <button class="btn btn-sm btn-danger d-flex p-1" delete><img src="images/fa-icons/times-solid.svg" alt="Delete Origin option"></button>
+                                            </div>
+                                            <div class="d-flex flex-column w-100">
+                                                <div class="d-flex flex-column card card-body mb-2">
+                                                    <label>
+                                                        <input type="radio" name="headmates_origin_type[0]" value="value" checked>
+                                                        <span>Origin:</span>
+                                                        <select name="headmates_origin_option[0]" class="form-control">
+                                                            <option value="b">Born with the body</option>
+                                                            <option value="i">Intentionally created</option>
+                                                            <option value="n">Natural</option>
+                                                            <option value="t">Traumagenic</option>
+                                                        </select>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="headmates_origin_type[0]" value="u">
+                                                        <span>Unknown Origin</span>
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex flex-column card card-body">
+                                                    <label class="margin-top-minus">
+                                                        <input type="radio" name="headmates_origin_number[0]" value="value" checked>
+                                                        <span>There are</span>
+                                                        <div class="checkbox-at-least">
+                                                            <input type="hidden" name="headmates_origin_atleast[0]" value="">
+                                                            <input type="checkbox" id="headmates_origin_atleast_0" name="headmates_origin_atleast[0]" value="+">
+                                                            <label for="headmates_origin_atleast_0">at least</label>
+                                                        </div>
+                                                        <input type="text" name="headmates_origin_count[0]" value="1" class="form-control number-field" aria-label="number, 0 or above">
+                                                        <span>headmate(s) with this origin.</span>
+                                                    </label>
+                                                    <label>
+                                                        <span>
+                                                            <input type="radio" name="headmates_origin_number[0]" value="~">
+                                                            There are an unknown number of headmates with this origin.
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <button class="btn btn-primary mr-3" add-group data-group="origin">Add Another Origin</button>
+                                        <span>(Delete all Origins if you prefer not to answer)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="discovery_rating" class="card mb-3">
+                                <h3 class="card-header">Headmate Discovery Rating</h3>
+                                <div class="card-body">
+                                    <p class="d-block">I would rate my level of headmate discovery/enumeration as:</p>
+                                    <div class="card card-body">
+                                        <p class="d-block" slider-output></p>
+                                        <div class="mx-3" slider data-name="discovery"></div>
+                                        <div class="d-none" slider-text>
+                                            <span data-value="0" data-text="(Prefer not to answer)"></span>
+                                            <span data-value="1" data-text="Completely non-existent (1/10)"></span>
+                                            <span data-value="2" data-text="Almost zero (2/10)"></span>
+                                            <span data-value="3" data-text="Very low (3/10)"></span>
+                                            <span data-value="4" data-text="Low (4/10)"></span>
+                                            <span data-value="5" data-text="Average (5/10)"></span>
+                                            <span data-value="6" data-text="Decent (6/10)"></span>
+                                            <span data-value="7" data-text="Reasonably complete (7/10)"></span>
+                                            <span data-value="8" data-text="Mostly complete (8/10)"></span>
+                                            <span data-value="9" data-text="Almost fully complete (9/10)"></span>
+                                            <span data-value="10" data-text="Fully complete (10/10)"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="communication_rating" class="card mb-3">
+                                <h3 class="card-header">Headmate Communication Rating</h3>
+                                <div class="card-body">
+                                    <p class="d-block">I would rate our level of communication as:</p>
+                                    <div class="card card-body">
+                                        <p class="d-block" slider-output></p>
+                                        <div class="mx-3" slider data-name="communication"></div>
+                                        <div class="d-none" slider-text>
+                                            <span data-value="0" data-text="(Prefer not to answer)"></span>
+                                            <span data-value="1" data-text="Completely non-existent (1/10)"></span>
+                                            <span data-value="2" data-text="Almost zero (2/10)"></span>
+                                            <span data-value="3" data-text="Very low (3/10)"></span>
+                                            <span data-value="4" data-text="Low (4/10)"></span>
+                                            <span data-value="5" data-text="Average (5/10)"></span>
+                                            <span data-value="6" data-text="Decent (6/10)"></span>
+                                            <span data-value="7" data-text="Reasonably good (7/10)"></span>
+                                            <span data-value="8" data-text="Very good (8/10)"></span>
+                                            <span data-value="9" data-text="Almost perfect (9/10)"></span>
+                                            <span data-value="10" data-text="Perfect (10/10)"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="amnesia_rating" class="card mb-3">
+                                <h3 class="card-header">Amnesia Rating</h3>
+                                <div class="card-body">
+                                    <p class="d-block">I remember:</p>
+                                    <div class="card card-body mb-3">
+                                        <p class="d-block" slider-output></p>
+                                        <div class="mx-3" slider data-name="amnesia"></div>
+                                        <div class="d-none" slider-text>
+                                            <span data-value="0" data-text="(Prefer not to answer)"></span>
+                                            <span data-value="1" data-text="No events (1/10)"></span>
+                                            <span data-value="2" data-text="Almost no events (2/10)"></span>
+                                            <span data-value="3" data-text="Very few events (3/10)"></span>
+                                            <span data-value="4" data-text="Some events (4/10)"></span>
+                                            <span data-value="5" data-text="About half of all events (5/10)"></span>
+                                            <span data-value="6" data-text="A fair amount of events (6/10)"></span>
+                                            <span data-value="7" data-text="A large amount of events (7/10)"></span>
+                                            <span data-value="8" data-text="Most events (8/10)"></span>
+                                            <span data-value="9" data-text="Almost all events (9/10)"></span>
+                                            <span data-value="10" data-text="All events (10/10)"></span>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0">that occur while I'm switched out.</p>
+                                </div>
+                            </div>
+                            <div id="openness_rating" class="card mb-3">
+                                <h3 class="card-header">Plurality Openness Rating</h3>
+                                <div class="card-body">
+                                    <div class="card card-body mb-3">
+                                        <p class="d-block">I would rate my openness about my plurality to people <strong>in real life</strong> as:</p>
+                                        <div class="card card-body">
+                                            <p class="d-block" slider-output></p>
+                                            <div class="mx-3" slider data-name="openness_irl"></div>
+                                            <div class="d-none" slider-text>
+                                                <span data-value="0" data-text="(Prefer not to answer)"></span>
+                                                <span data-value="1" data-text="Not open at all (1/10)"></span>
+                                                <span data-value="2" data-text="Highly secretive (2/10)"></span>
+                                                <span data-value="3" data-text="Secretive (3/10)"></span>
+                                                <span data-value="4" data-text="Very selective about who knows (4/10)"></span>
+                                                <span data-value="5" data-text="Rather selective about who knows (5/10)"></span>
+                                                <span data-value="6" data-text="A bit selective about who knows (6/10)"></span>
+                                                <span data-value="7" data-text="Fairly open (7/10)"></span>
+                                                <span data-value="8" data-text="Open to most people (8/10)"></span>
+                                                <span data-value="9" data-text="Open to almost everyone (9/10)"></span>
+                                                <span data-value="10" data-text="Completely open to everyone (10/10)"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card card-body">
+                                        <p class="d-block">I would rate my openness about my plurality to people <strong>online</strong> as:</p>
+                                        <div class="card card-body">
+                                            <p class="d-block" slider-output></p>
+                                            <div class="mx-3" slider data-name="openness_online"></div>
+                                            <div class="d-none" slider-text>
+                                                <span data-value="0" data-text="(Prefer not to answer)"></span>
+                                                <span data-value="1" data-text="Not open at all (1/10)"></span>
+                                                <span data-value="2" data-text="Highly secretive (2/10)"></span>
+                                                <span data-value="3" data-text="Secretive (3/10)"></span>
+                                                <span data-value="4" data-text="Very selective about who knows (4/10)"></span>
+                                                <span data-value="5" data-text="Rather selective about who knows (5/10)"></span>
+                                                <span data-value="6" data-text="A bit selective about who knows (6/10)"></span>
+                                                <span data-value="7" data-text="Fairly open (7/10)"></span>
+                                                <span data-value="8" data-text="Open to most people (8/10)"></span>
+                                                <span data-value="9" data-text="Open to almost everyone (9/10)"></span>
+                                                <span data-value="10" data-text="Completely open to everyone (10/10)"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header d-flex align-items-center justify-content-between">
+                                    <button class="btn btn-lg btn-primary" generate-code>Generate</button>
+                                    <button class="btn btn-lg btn-secondary" generate-link disabled>Copy Code Link</button>
+                                </div>
+                                <div class="card-body" code-output></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <p><small>Derived from the 'Multiple Code,' originally created by members of The Consortium system, March 2001, and the edits and updates contributed by members of the Astraea system, January 2004.</small></p>
+                <p><small>Hosted by the <a href="https://github.com/himokko413/sawarineko">Sawarineko Project</a> of the <a href="https://himokko413.github.io/sawarineko/">Fortuna System</a></small></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

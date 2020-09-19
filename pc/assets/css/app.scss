@@ -1,0 +1,84 @@
+.card.card-body {
+    width: 100%;
+}
+
+.code-parser {
+    [parser-message] {
+        margin: 1.25rem 1.25rem 0;
+    }
+
+    [parser-output] {
+        > *:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+[generator-form] {
+    label {
+        margin-bottom: 0;
+
+        &.margin-top-minus {
+            margin-top: -0.25rem;
+        }
+    }
+    div:not(.checkbox-at-least) > label {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        min-height: calc(1.5em + 0.75rem + 2px);
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+        > * {
+            margin-right: 0.4rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .number-field {
+        display: inline-block;
+        width: 5rem;
+    }
+
+    .checkbox-at-least {
+        height: calc(1.5em + 0.75rem + 2px);
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        user-select: none;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+
+        input[type="checkbox"] {
+            margin-left: 0.75rem;
+        }
+        label {
+            padding: 0.38rem 0.75rem 0.38rem 1.9rem;
+            margin-left: -1.9rem;
+        }
+    }
+    input[type="number"], input[type="text"], select {
+        &.form-control {
+            width: 12rem;
+        }
+    }
+}
+
+.btn[delete] img {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
+[accordion-arrow] {
+    position: absolute;
+    top: 50%;
+    right: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translateY(-50%);
+}
