@@ -37,6 +37,6 @@ export SWR_ASOURCE="concept art (VOFAN)"
 # URL of avatar source (if available)
 export SWR_AURL=""
 # Source of portrait
-export SWR_PSOURCE="concept art (VOFAN)"
+export SWR_PSOURCE="にゃんまる on pixiv"
 # URL of portrait source (if available)
-export SWR_PURL=""
+export SWR_PURL="https://www.pixiv.net/artworks/83743108"

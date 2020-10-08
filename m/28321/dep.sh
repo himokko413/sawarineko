@@ -1,42 +1,42 @@
 # Primary name to show on introductions, registered onto PK
-export SWR_NAME="Lucy"
+export SWR_NAME="Hanekawa Noire"
 # Full name, may be used in intro
-export SWR_FULL_NAME="Tsubasa P. / Lucy"
+export SWR_FULL_NAME="Hanekawa Noire"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="New Again"
+export SWR_EPITHET="Hindering Cat"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
-export SWR_PERSONAL="watashi"
+export SWR_PERSONAL="ore"
 # Type of member (introject, walk-in, etc.)
-export SWR_TYPE="endogenic factive"
+export SWR_TYPE="fictive"
 # Source (meant for introjects but can also describe reason for formation)
-export SWR_SOURCE="original singlet"
+export SWR_SOURCE="Monogatari series"
 # Source explanation (character page for fictives, Blossom definition etc.)
-export SWR_SURL=""
+export SWR_SURL="https://bakemonogatari.fandom.com/wiki/Sawarineko"
 # Color of member or member's cluster
 export SWR_COLOR="#300"
 # Role of member in system
-export SWR_ROLE="archivist, protector, singletsona"
+export SWR_ROLE="oddity"
 # Age/birthday to display on intro. Appended to relative age if enabled
-export SWR_AGE="19 (N/A.07.04)"
+export SWR_AGE="??"
 # YYYY-MM-DD birthday to add to PK
-export SWR_PK_BIRTHDAY="07-04"
+export SWR_PK_BIRTHDAY=""
 # Weapon color (old Grima protocol). 0 1 2 3 = red, blue, green, colorless
 export GRI_COL="0"
 # Weapon type (old Grima protocol). 0 1 2 3 4 5 6 7 8 = sword, lance, axe, staff, bow, dagger, tome, breath, beast
-export GRI_WEP="0"
+export GRI_WEP="8"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
-export GRI_MOV="0"
+export GRI_MOV="1"
 # Description (preferably written by member)
-export SWR_DESC="hey. im lucy, the original singlet (kind of, long story). i'm very nerdy and geeky but many see me as a sweet girl. also i'm easily embarrassed. idk how good i am in stuff but i like to think i do pretty well."
+export SWR_DESC="can nyou imyagine an imyaginyary menyagerie manyager manyaging an imyaginary menyagerie"
 # Proxy used on PK.
-export SWR_PROXY="lu/text"
+export SWR_PROXY="bh/text"
 # Source of avatar
-export SWR_ASOURCE="original avatar made in VRoid Studio"
+export SWR_ASOURCE="concept art (VOFAN)"
 # URL of avatar source (if available)
-export SWR_AURL="https://vroid.com/studio"
+export SWR_AURL=""
 # Source of portrait
-export SWR_PSOURCE="original avatar made in VRoid Studio"
+export SWR_PSOURCE="にゃんまる on pixiv"
 # URL of portrait source (if available)
-export SWR_PURL="https://vroid.com/studio"
+export SWR_PURL="https://www.pixiv.net/artworks/83743108"
