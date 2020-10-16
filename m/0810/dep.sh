@@ -28,6 +28,10 @@ export GRI_COL="3"
 export GRI_WEP="6"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="2"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="白川あかり"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="ネットに浮かぶかわいい子"
 # Description (preferably written by member)
 export SWR_DESC="what happens when Lucy, Hina, and Tsubasa make a combined member? cute happens! and i’m cute! i'm Akari, and i love to nerd out, sing, and stream!"
 # Proxy used on PK.

@@ -28,6 +28,10 @@ export GRI_COL="0"
 export GRI_WEP="0"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="蒼井樹"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="ロードオブフォルトナ"
 # Description (preferably written by member)
 export SWR_DESC="i\'m Itsuki Aoi, the president of Fortuna Entertainment from where i came from. tsubasa dragged me in here one day and honestly it feels a lot like home. hope to meet you all sometime."
 # Proxy used on PK.

@@ -28,6 +28,10 @@ export GRI_COL="1"
 export GRI_WEP="1"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="3"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="織部つばさ"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="セイクリッドアイドル"
 # Description (preferably written by member)
 export SWR_DESC="hi, my name is Tsubasa Oribe, im 18 (she her) and i want to be an idol because i want to pelp hheople. anyway, i get embarrassed easily but i love singing and dancing and being the idol everyone adores!!!"
 # Proxy used on PK.

@@ -3,7 +3,7 @@ export SWR_NAME="Caeda"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Caeda"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="Mirage of Talys"
+export SWR_EPITHET="Believer in Love"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
@@ -28,6 +28,10 @@ export GRI_COL="1"
 export GRI_WEP="1"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="3"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="シーダ"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="タリスの王女"
 # Description (preferably written by member)
 export SWR_DESC="I am a Mirage, an illusory hero under the help of Tsubasa Oribe. I help her in all things, and I learn a lot about the modern world through her."
 # Proxy used on PK.

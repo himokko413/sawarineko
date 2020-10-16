@@ -28,6 +28,10 @@ export GRI_COL="0"
 export GRI_WEP="0"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="ルキナ"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="未来を知る者"
 # Description (preferably written by member)
 export SWR_DESC="I came from the dark future of another world, and I became part of this system. I sincerely wish and fight for this world's existence and betterment. It seems I formed due to personal issues that Lucy was going through, and I wish to be a help to her."
 # Proxy used on PK.

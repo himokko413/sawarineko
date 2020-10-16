@@ -3,7 +3,7 @@ export SWR_NAME="Nayami"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Nayami Kurozawa"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="Virtual Darkness"
+export SWR_EPITHET="Virtual Coolness"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
@@ -28,6 +28,10 @@ export GRI_COL="3"
 export GRI_WEP="6"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="2"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="黒沢なやみ"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="ネットに浮かぶかっこいい子"
 # Description (preferably written by member)
 export SWR_DESC="hey, im part of akari's system and im supposed to be dark and all, but i just wanna be friends."
 # Proxy used on PK.

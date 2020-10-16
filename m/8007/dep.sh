@@ -28,6 +28,10 @@ export GRI_COL="2"
 export GRI_WEP="6"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="天野陽菜"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="１００％の晴れ女"
 # Description (preferably written by member)
 export SWR_DESC="Hey there, I'm Hina. I'm chipper, yet straightforward. What I want to do is help people through tough times, and turn their rainy days into sunny days!"
 # Proxy used on PK.

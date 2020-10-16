@@ -3,7 +3,7 @@ export SWR_NAME="Inside Umaru"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Umaru Doma"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="Blob / Inside"
+export SWR_EPITHET="Lazy Blob"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Type of member (introject, walk-in, etc.)
@@ -28,6 +28,10 @@ export GRI_COL="0"
 export GRI_WEP="8"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="土間うまる"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="干物妹"
 # Description (preferably written by member)
 export SWR_DESC="hi everyone >:D my name is umaru, and im the STRONGEST GAMER IN THE WORLD. but, between you and me, i have a beautiful side. orz"
 # Proxy used on PK.

@@ -3,7 +3,7 @@ export SWR_NAME="Tharja"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Tharja"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="Grim Mirage"
+export SWR_EPITHET="Grim Technowiz"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
@@ -28,6 +28,10 @@ export GRI_COL="2"
 export GRI_WEP="6"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="サーリャ"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="物陰の闇使い"
 # Description (preferably written by member)
 export SWR_DESC=""
 # Proxy used on PK.

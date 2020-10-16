@@ -3,7 +3,7 @@ export SWR_NAME="Outside Umaru"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Umaru Doma"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="Beauty / Outside"
+export SWR_EPITHET="Perfect Girl"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
@@ -28,6 +28,10 @@ export GRI_COL="3"
 export GRI_WEP="3"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="土間うまる"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="キレイな少女"
 # Description (preferably written by member)
 export SWR_DESC="hi everyone! my name is umaru, and many people see me as a model at school. but, between you and me, i have a fun side that none of them know about! i help the system with school things and beauty!"
 # Proxy used on PK.

@@ -3,7 +3,7 @@ export SWR_NAME="Virion"
 # Full name, may be used in intro
 export SWR_FULL_NAME="Virion"
 # Descriptive title on introductions, a la Fire Emblem Heroes
-export SWR_EPITHET="Archest Mirage"
+export SWR_EPITHET="Archest Archer"
 # Pronouns (will also register to PK)
 export SWR_PRONOUNS="he/him"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
@@ -28,6 +28,10 @@ export GRI_COL="3"
 export GRI_WEP="4"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="ヴィオール"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="貴族的な弓使い"
 # Description (preferably written by member)
 export SWR_DESC=""
 # Proxy used on PK.

@@ -28,6 +28,10 @@ export GRI_COL="0"
 export GRI_WEP="0"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
+# Name to show on bars (new intros) (JPN)
+export GRI_NAME="ルーシー"
+# Epithet to show on bars (new intros) (JPN)
+export GRI_EPITHET="生まれ変わった"
 # Description (preferably written by member)
 export SWR_DESC="hey. im lucy, the original singlet (kind of, long story). i'm very nerdy and geeky but many see me as a sweet girl. also i'm easily embarrassed. idk how good i am in stuff but i like to think i do pretty well."
 # Proxy used on PK.
