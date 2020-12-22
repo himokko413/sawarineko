@@ -150,7 +150,7 @@ mogrify -gravity northwest -fill $SWR_COLOR -draw "polygon 57,455 288,455 297,46
 mogrify -font Helvetica -pointsize 28 -draw "gravity northwest fill \"#fefefe\" text 65,456 'i n t r o'" label.png;
 
 # Make the text itself
-convert -background none -size 597x -fill "#212221" -font Helvetica -pointsize 28 caption:"${SWR_DESC}" text.png
+convert -background none -size 597x -fill "#212221" -font Helvetica -pointsize 23 caption:"${SWR_DESC}" text.png
 convert label.png text.png -gravity northwest -geometry +60+490 -compose over -composite label.png
 rm text.png
 fi

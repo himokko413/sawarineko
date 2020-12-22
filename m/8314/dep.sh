@@ -1,7 +1,7 @@
 # Primary name to show on introductions, registered onto PK
 export SWR_NAME="Lucy"
 # Full name, may be used in intro
-export SWR_FULL_NAME="Tsubasa P. / Lucy"
+export SWR_FULL_NAME="Tsubasa S. / Lucy"
 # Descriptive title on introductions, a la Fire Emblem Heroes
 export SWR_EPITHET="New Again"
 # Pronouns (will also register to PK)
@@ -9,7 +9,7 @@ export SWR_PRONOUNS="she/her"
 # Personal pronouns (i.e. watashi, watakushi, boku, ore)
 export SWR_PERSONAL="watashi"
 # Type of member (introject, walk-in, etc.)
-export SWR_TYPE="endogenic factive"
+export SWR_TYPE="endogenic snapshot"
 # Source (meant for introjects but can also describe reason for formation)
 export SWR_SOURCE="original singlet"
 # Source explanation (character page for fictives, Blossom definition etc.)
@@ -29,7 +29,7 @@ export GRI_WEP="0"
 # Movement type (old Grima protocol). 0 1 2 3 = infantry, cavalry, armored, flier
 export GRI_MOV="0"
 # Name to show on bars (new intros) (JPN)
-export GRI_NAME="ルーシー"
+export GRI_NAME="白川ツバサ"
 # Epithet to show on bars (new intros) (JPN)
 export GRI_EPITHET="生まれ変わった"
 # Description (preferably written by member)
