@@ -42,6 +42,10 @@ sl='1'
 [[ -z $1 ]] && url='99991' || url=$1
 
 source m/${url}/dep.sh
+if [ "$SWR_IGNORE" = true ]; then
+  echo "Ignored ${url} (SWR_IGNORE flag set to true)"
+exit
+fi
 if [ ! -z $GRI_NAME ]; then
 epithet=$GRI_NAME
 else
