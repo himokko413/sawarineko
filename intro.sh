@@ -41,9 +41,11 @@ sl='1'
 # Sothis is the default. She ALWAYS is. -th
 [[ -z $1 ]] && url='99991' || url=$1
 
+
+export SWR_IGNORE=true
 source m/${url}/dep.sh
-if [ "$SWR_IGNORE" = true ]; then
-  echo "Ignored ${url} (SWR_IGNORE flag set to true)"
+if [ "$SWR_IGNORE" != false ]; then
+  echo "Ignored ${url} (SWR_IGNORE not present OR set to true)"
 exit
 fi
 if [ ! -z $GRI_NAME ]; then

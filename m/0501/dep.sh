@@ -1,3 +1,4 @@
+export SWR_IGNORE=false
 # Primary name to show on introductions, registered onto PK
 export SWR_NAME="Outside Umaru"
 # Full name, may be used in intro

@@ -1,3 +1,5 @@
+# Ignore flag for generating intros. Set to false only when member is public!
+export SWR_IGNORE=false
 # Primary name to show on introductions, registered onto PK
 export SWR_NAME="Tharja"
 # Full name, may be used in intro
